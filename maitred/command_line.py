@@ -17,6 +17,9 @@ def main():
     ap = ArgumentParser(description=getdoc(main))
     parsed = ap.parse_args()
 
+    if parsed is None:
+        return
+
     cp = ConfigParser()
     cp.read(['/etc/maitred.conf'])
 

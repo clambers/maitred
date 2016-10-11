@@ -1,5 +1,5 @@
 from unittest import TestCase
-from maitred.command_line import main
+# from maitred.command_line import main
 
 
 class TestCmd(TestCase):
